@@ -1,0 +1,28 @@
+{
+  "name": "extralife",
+  "version": "1.0.0",
+  "description": "extra life donation logger",
+  "main": "extra-life-api.js",
+  "dependencies": {
+    "extra-life-api": "^1.1.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jdubz/extraLifeDonationVisualizer.git"
+  },
+  "keywords": [
+    "extra",
+    "life"
+  ],
+  "author": "Josh Wentworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jdubz/extraLifeDonationVisualizer/issues"
+  },
+  "homepage": "https://github.com/Jdubz/extraLifeDonationVisualizer#readme"
+}
