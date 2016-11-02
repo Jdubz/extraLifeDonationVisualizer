@@ -48,7 +48,7 @@ extraLife.getRecentDonations( userId, data => {
     } else {
       donations.push(data[i]);
       newDonations.push(JSON.stringify(data[i]));
-      logger.debug(`new donation ${JSON.stringify(data[i])}`);
+      logger.info(`new donation ${JSON.stringify(data[i])}`);
     }
   }
   let size = newDonations.length;
